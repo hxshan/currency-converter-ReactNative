@@ -17,13 +17,15 @@ Make sure the following are installed on your system:
 2. **Install Dependencies**
     ```bash
     npm install
-3. **Set Up Environment Variables**
+3. **Set Up Environment Variables :**<br>
+   The Free version of the Api only allows conversions from EUR to [any other currency] and not vice versa
     - Create a .env file at the root of the directory
     - Obtain a **ExchangeRates Api Key** (https://exchangeratesapi.io)
     - Add the following content, replacing YOUR_API_KEY with your actual API key
       
    ```bash
    API_KEY=YOUR_API_KEY
+
 4. **Start the Development Server** Use the following command to start the Expo development server:
       ```bash
       npx expo start
